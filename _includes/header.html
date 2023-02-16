@@ -51,6 +51,7 @@
                   {%- endif -%}
                 </a>
               </li>
+
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <!-- ## Disable Blog in nav bar ##
@@ -95,6 +96,10 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              <!-- CV link -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/assets/pdf/CV.pdf' | relative_url }}">cv</a>
+              </li>
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
