@@ -2,24 +2,43 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data Science / AI+ML • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a> / <b>Physics</b> @ <a href="physics.usc.edu"> UCR </a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>iota at usc dot edu</p>
+    <p><a href="https:twitter.com/stepheniota"> @stepheniota </a></p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a CS MS student at USC, with background in physics.
+My interests are in probabilistic modeling,
+data analysis, and ML applied to the natural and physical sciences.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm **actively seeking job opportunities** in the intersection of `ML x Bio`.
+My passion lies in exploring the potential of ML to drive new discoveries
+and innovations in science, from drug discovery to causal inference.
+I'm looking to work alongside an interdisciplinary team
+to solve important data science problems.
+
+At USC, I've worked on [Causal RL](https://arxiv.org/abs/2110.15489),
+developing safe transfer learning methods for agents.
+I've also had the opportunity to work on interdisciplinary research
+at the [ISI](https://isi.edu), ranging from
+[Social Network analysis](https://academic.oup.com/comnet/article-abstract/10/2/cnac007/6561923)
+to [Geology](https://doi.org/10.1002%2Fessoar.10508800.1).
+My journey through data science started with
+[analyzing X-ray tomography data](https://drive.google.com/file/d/1M-TMeE2Pv4qcCTmtendvrjPiJjFDz7Oh/view?usp=sharing) from the [ALS](https://als.lbl.gov) for NASA parachutes.
+
+
+In my free time, I enjoy challenging for Local Legends/KOMs on
+[Strava](https://www.strava.com/athletes/59785368),
+constantly learning new things and trying to see as much of the world as possible!
