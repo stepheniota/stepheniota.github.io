@@ -1,8 +1,7 @@
 ---
 layout: default
-permalink: /assets/pdf/CV.pdf
+permalink: /CV/
 title: cv
-nav: true
+nav: false
 nav_order: 4
-cv_pdf: CV.pdf
 ---
