@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>iota at usc dot edu</p>
-    <p><a href="https:twitter.com/stepheniota"> @stepheniota </a></p>
+    <p><a href="https://twitter.com/stepheniota"> @stepheniota </a></p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
