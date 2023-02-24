@@ -21,13 +21,13 @@ Welcome!
 
 I am a CS MS student at USC, with background in physics.
 My interests are in probabilistic modeling,
-data analysis, and ML applied to the natural and physical sciences.
+data analysis, and ML applied to physical sciences and engineering.
 
-I'm **actively seeking job opportunities** in the intersection of `ML x Bio`.
+I'm **actively seeking job opportunities** in applied ML and data science.
 My passion lies in exploring the potential of ML to drive new discoveries
-and innovations in science, from drug discovery to causal inference.
+and innovations in science and engineering, from drug discovery to causal inference and robotics.
 I'm looking to work alongside an interdisciplinary team
-to solve important data science problems.
+to solve important and challenging data science problems.
 
 At USC, I've worked on [Causal RL](https://arxiv.org/abs/2110.15489),
 developing safe transfer learning methods for agents.
