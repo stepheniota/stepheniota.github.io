@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Science / AI+ML • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a> / <b>Physics</b> @ <a href="physics.usc.edu"> UCR </a>
+subtitle: <b>ML/NLP</b> @ abstact.security • CS MSc @ <a href="https://cs.usc.edu"> USC </a> •
 
 profile:
   align: right
@@ -19,15 +19,8 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome!
 
-I am a CS MS student at USC, with background in physics.
-My interests are in probabilistic modeling,
-data analysis, and ML applied to physical sciences and engineering.
+I am a Software Engineer at `abstract.security`, and a CS MSc student at USC. Previously, I received my BSc in Physics from UCR. My interests are in probabilistic modeling, NLP, and applied ML. I'm looking to explore the potential of ML to drive new discoveries and innovations in science and engineering, from cybersecurity to drug discovery and causal inference.
 
-I'm **actively seeking job opportunities** in applied ML and data science.
-My passion lies in exploring the potential of ML to drive new discoveries
-and innovations in science and engineering, from drug discovery to causal inference and robotics.
-I'm looking to work alongside an interdisciplinary team
-to solve important and challenging data science problems.
 
 At USC, I've worked on [Causal RL](https://arxiv.org/abs/2110.15489),
 developing safe transfer learning methods for agents.
@@ -41,4 +34,4 @@ My journey through data science started with
 
 In my free time, I enjoy challenging for Local Legends/KOMs on
 [Strava](https://www.strava.com/athletes/59785368),
-constantly learning new things and trying to see as much of the world as possible!
+learning more math and physics and traveling the world!
