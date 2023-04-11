@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>ML/NLP</b> @ abstact.security • CS MSc @ <a href="https://cs.usc.edu"> USC </a>
+subtitle: <b>ML/NLP</b> @ abstract.security • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a>
 
 profile:
   align: right
