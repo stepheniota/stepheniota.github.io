@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>ML/NLP</b> @ abstract.security • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a>
+subtitle: <b>ML/NLP</b> @ stealthmode startup • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a>
 
 profile:
   align: right
@@ -19,7 +19,12 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome!
 
-I am a Software Engineer at `abstract.security`, and a CS MSc student at USC. Previously, I received my BSc in Physics from UCR. My interests are in probabilistic modeling, NLP, and applied ML. I'm looking to explore the potential of ML to drive new discoveries and innovations in science and engineering, from cybersecurity to drug discovery and causal inference.
+I am a ML Engineer at a stealthmode startup, and a CS MSc student at USC.
+Previously, I received my BS in Physics from UCR.
+My interests are in probabilistic modeling, NLP, and applied ML.
+I'm looking to explore the potential of ML to drive new discoveries
+and innovations in science and engineering,
+from cybersecurity to drug discovery and causal inference.
 
 
 At USC, I've worked on [Causal RL](https://arxiv.org/abs/2110.15489),
