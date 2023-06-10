@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>ML/NLP</b> @ stealthmode startup • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a>
+subtitle: <b>ML/NLP</b> @ Abstract • <b>CS</b> @ <a href="https://cs.usc.edu"> USC </a>
 
 profile:
   align: right
@@ -19,24 +19,21 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome!
 
-I am a ML Engineer at a stealthmode startup, and a CS MSc student at USC.
+I am a Machine Learning Engineer at Abstract Security, and a CS MSc student at USC.
 Previously, I received my BS in Physics from UCR.
-My interests are in probabilistic modeling, NLP, and applied ML.
-I'm looking to explore the potential of ML to drive new discoveries
-and innovations in science and engineering,
-from cybersecurity to drug discovery and causal inference.
+My main interests are in probabilistic modeling, causal inference and more recently applied NLP/LLMs.
 
-
-At USC, I've worked on [Causal RL](https://arxiv.org/abs/2110.15489),
+Before ML Engineering, I spent some time in the ML/Stats research space.
+At USC, I worked on [Causal RL](https://arxiv.org/abs/2110.15489),
 developing safe transfer learning methods for agents.
-I've also had the opportunity to work on interdisciplinary research
-at the [ISI](https://isi.edu), ranging from
-[Social Network analysis](https://academic.oup.com/comnet/article-abstract/10/2/cnac007/6561923)
-to [Geology](https://doi.org/10.1002%2Fessoar.10508800.1).
-My journey through data science started with
-[analyzing X-ray tomography data](https://drive.google.com/file/d/1M-TMeE2Pv4qcCTmtendvrjPiJjFDz7Oh/view?usp=sharing) from the [ALS](https://als.lbl.gov) for NASA parachutes.
-
+I also had the opportunity to contribute to interdisciplinary data science research
+at the [ISI](https://isi.edu), including
+[Social Network Analysis](https://academic.oup.com/comnet/article-abstract/10/2/cnac007/6561923)
+and [Geology](https://doi.org/10.1002%2Fessoar.10508800.1).
+Even before that, I helped [analyze X-ray tomography data](https://drive.google.com/file/d/1M-TMeE2Pv4qcCTmtendvrjPiJjFDz7Oh/view?usp=sharing) from the [Advanced Light Source](https://als.lbl.gov)
+for NASA Entry Systems Parachutes.
+My research journey started off as a Physics student in [Barsukov lab](https://barsukov.ucr.edu), working on micromagnetic magnetic simulations.
 
 In my free time, I enjoy challenging for Local Legends/KOMs on
 [Strava](https://www.strava.com/athletes/59785368),
-learning more math and physics and traveling the world!
+attending music festivals and traveling!
