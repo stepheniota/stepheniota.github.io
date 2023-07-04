@@ -7,7 +7,7 @@ subtitle: <b>ML/NLP</b> @ Abstract • <b>CS</b> @ <a href="https://cs.usc.edu">
 profile:
   align: right
   image: me.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>iota at usc dot edu</p>
     <p><a href="https://twitter.com/stepheniota"> @stepheniota </a></p>
