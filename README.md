@@ -1,3 +1,3 @@
-### personal webpage
+## Personal site
 
 stepheniota.github.io
