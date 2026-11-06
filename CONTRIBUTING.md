@@ -1,25 +1,32 @@
-# Contributing to al-folio
-Thank you for considering to contribute to al-folio!
+# Contributing
 
+## Commit messages
 
-## Pull Requests
-We welcome your pull requests (PRs).
-For minor fixes (e.g., documentation improvements), feel free to submit a PR directly.
-If you would like to implement a new feature or a bug, please make sure you (or someone else) has opened an appropriate issue first; in your PR, please mention the issue it addresses.
+Follow [Conventional Commits](https://www.conventionalcommits.org):
 
+```
+<type>(<optional scope>): <subject>
 
-## Issues
-We use GitHub issues to track bugs and feature requests.
-Before submitting an issue, please make sure:
+<optional body>
+```
 
-1. You have read [the FAQ section](https://github.com/alshedivat/al-folio#faq) of the README and your question is NOT addressed there.
-2. You have done your best to ensure that your issue is NOT a duplicate of one of [the previous issues](https://github.com/alshedivat/al-folio/issues).
-3. Your issue is either a bug (unexpected/undesirable behavior) or a feature request.
-If it is just a question, please ask it in the [Discussions](https://github.com/alshedivat/al-folio/discussions) forum.
+- **Types:** `feat`, `fix`, `style`, `refactor`, `docs`, `chore`, `ci`
+- **Scope** (optional): the area touched, e.g. `pubs`, `layout`, `deploy`
+- **Subject:** lowercase, imperative mood ("add", not "added"), no period,
+  about 50 characters or fewer
+- **Body** (optional): blank line after the subject, wrapped at 72
+  characters, explaining what changed and why
+- No `Co-Authored-By` or other attribution trailers
 
-When submitting an issue, please make sure to use the appropriate template.
+Examples:
 
+```
+feat(pubs): add 2025 workshop paper
+fix: correct broken arXiv link on home page
+style: tighten header spacing on mobile
+```
 
-## License
-By contributing to al-folio, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of the source tree.
+## Pull requests
+
+Same conventions for the PR title. Keep the description short: what
+changed, why, and how it was checked. No attribution lines.

@@ -1,0 +1,47 @@
+---
+import { ME, type Publication } from '../data/publications';
+
+interface Props {
+  pub: Publication;
+}
+
+const { pub } = Astro.props;
+const links = Object.entries(pub.links ?? {}) as [string, string][];
+const linkLabel: Record<string, string> = {
+  arxiv: 'arXiv',
+  pdf: 'PDF',
+  code: 'Code',
+  website: 'Website',
+  url: 'Paper',
+  poster: 'Poster',
+  slides: 'Slides',
+};
+---
+
+<li class="pub">
+  <p class="pub-title">{pub.title}</p>
+  <p class="pub-meta">
+    {
+      pub.authors.map((a, i) => (
+        <>
+          {a.replace(/\*$/, '') === ME ? <strong>{a.replace(/\*$/, '')}</strong> : a.replace(/\*$/, '')}
+          {a.endsWith('*') && <span class="eq">*</span>}
+          {i < pub.authors.length - 1 ? ', ' : ''}
+        </>
+      ))
+    }
+    <br />
+    {pub.venue} {pub.year}
+  </p>
+  {
+    links.length > 0 && (
+      <ul class="pub-links">
+        {links.map(([key, href]) => (
+          <li>
+            <a href={href}>{linkLabel[key] ?? key}</a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</li>
