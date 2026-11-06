@@ -1,0 +1,92 @@
+---
+import '@fontsource-variable/archivo/wdth.css';
+import '../styles/global.css';
+import { site, socials } from '../data/site';
+import Star from '../components/Star.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = site.description } = Astro.props;
+const pageTitle = title ? `${title} — ${site.name}` : site.name;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+const nav = [
+  { label: 'About', href: '/' },
+  { label: 'Publications', href: '/publications/' },
+  { label: 'Resume', href: site.resume },
+];
+const isCurrent = (href: string) => (href.replace(/\/$/, '') || '/') === path;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="site-header">
+        <a class="wordmark display" href="/"><Star />{site.name}</a>
+        <nav class="site-nav label" aria-label="Main">
+          {
+            nav.map((item) => (
+              <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+      </header>
+
+      <main id="main">
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <Star />
+        <div>
+          <p class="label">Contact</p>
+          <p>
+            <a class="email" href="#" data-u={site.email.user} data-d={site.email.domain}>
+              {site.email.user} [at] {site.email.domain.replace('.', ' [dot] ')}
+            </a>
+          </p>
+        </div>
+        <div>
+          <p class="label">Elsewhere</p>
+          <ul>
+            {
+              socials.map((s) => (
+                <li>
+                  <a href={s.href} rel="me noopener">
+                    {s.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <p class="copyright">© {new Date().getFullYear()} {site.name}</p>
+      </footer>
+    </div>
+    <script is:inline>
+      document.querySelectorAll('a.email').forEach((a) => {
+        const addr = a.dataset.u + '@' + a.dataset.d;
+        a.href = 'mailto:' + addr;
+        a.textContent = addr;
+      });
+    </script>
+  </body>
+</html>

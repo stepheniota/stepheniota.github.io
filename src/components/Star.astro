@@ -1,0 +1,15 @@
+---
+// Six-spoke asterisk mark in the accent color (decorative).
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<svg class={`star ${className}`} viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+  <g stroke="currentColor" stroke-width="18" stroke-linecap="round">
+    <line x1="50" y1="9" x2="50" y2="91"></line>
+    <line x1="14.5" y1="29.5" x2="85.5" y2="70.5"></line>
+    <line x1="14.5" y1="70.5" x2="85.5" y2="29.5"></line>
+  </g>
+</svg>

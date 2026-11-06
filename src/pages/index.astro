@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PubItem from '../components/PubItem.astro';
+import { Content as About } from '../content/about.md';
+import { site } from '../data/site';
+import { publications } from '../data/publications';
+import portrait from '../assets/me.jpg';
+
+const selected = publications.filter((p) => p.selected);
+---
+
+<Base>
+  <div class="intro">
+    <div>
+      <h1>{site.name}</h1>
+      <p class="tagline">{site.tagline}</p>
+    </div>
+    <Image
+      class="portrait"
+      src={portrait}
+      alt={`Portrait of ${site.name}`}
+      width={224}
+      height={280}
+      loading="eager"
+    />
+  </div>
+
+  <section aria-label="About">
+    <About />
+  </section>
+
+  <section>
+    <h2 class="section-title label">
+      Selected publications
+      <a href="/publications/">All →</a>
+    </h2>
+    <ul class="pubs">
+      {selected.map((pub) => <PubItem pub={pub} />)}
+    </ul>
+  </section>
+</Base>
